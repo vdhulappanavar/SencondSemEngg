@@ -1,0 +1,24 @@
+def foo(l):
+#	print("in foo")
+	for i in l:
+		
+		s=""
+		repeted=False
+		for j in range(len(i)-1 , -1 , -1):
+			s=s+i[j]
+			if i.count(i[j])>1 and repeted:
+				repeted=True
+#		print(s)
+		if s == i:
+			print(i,"is a palindrome")
+			print()
+		if repeted:
+			print(i, "has repeted characters")
+			print()
+
+#foo(["liril" , "bee"])
+n=int(input("Enter the number of strings to be entered: "))
+l=[]
+for i in range(0,n):
+	l.append(input("Enter a String: "))
+foo(l)

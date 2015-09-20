@@ -1,0 +1,6 @@
+import random
+def gen_random(ll , ul):
+	print("A random number:" , random.randint(ll , ul))
+print("A random number:" , (random.random()))
+gen_random(int(input("Enter Lower Limit:")) , int(input("Enter Upper Limit:")))
+

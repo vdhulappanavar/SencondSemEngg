@@ -1,0 +1,19 @@
+<html ng-app="nameApp">
+	<head>
+		<meta charset="urf-8">
+		<title>21foo</title>
+		<script  src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+		<script>
+			var nameApp=angular.module("nameApp" , []);
+			nameApp.controller("CountryCtrl" , function($scope){
+					$scope.countries=[{"name":"China" , "pop" : 12213213213213}, {"name":"India" , "pop" : 12213893213213} , {"name":"USA" , "pop" : 9059343423405}];
+			});
+		</script>
+	</head>
+	
+	<body ng-controller="CountryCtrl">
+		<ul>
+			<li ng-repeat="country in countries">{{country.name}} {{country.pop}}</li>
+		</ul>
+	</body>
+</html>

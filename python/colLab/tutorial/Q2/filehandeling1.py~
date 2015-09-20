@@ -1,0 +1,33 @@
+#cat input.txt | python3 filehandeling.py
+lines=[]
+lineinfo=[]
+def spliting():
+	for i in lines:
+		lineinfo.append(i.split())
+
+def inputing():
+	while True:
+		try:
+			line=input()
+			lines.append(line)
+		except:	
+			break
+	spliting()
+
+
+def no_of_files():
+	print("No of files is:" , len(lines))
+
+
+def fileNameNSize():
+	print("File Name\t\t\t\tSize")
+	for i in range(0 , 5):
+		print(lineinfo[i][7] , "\t\t" , lineinfo[i][4])
+		
+
+def main():
+	inputing()
+	no_of_files()
+	fileNameNSize()
+	
+main()

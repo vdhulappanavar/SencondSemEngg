@@ -1,0 +1,34 @@
+-rwxr-xr-x 1 root root      13972 Jan 17  2014 aconnect
+-rwxr-xr-x 1 root root       9940 Apr  4  2014 acpi_listen
+-rwxr-xr-x 1 root root       5540 Apr 16  2014 addpart
+-rwxr-xr-x 1 root root      30612 Feb 25  2014 bluetooth-wizard
+-rwxr-xr-x 1 root root       3903 Apr 11  2014 bluez-simple-agent
+-rwxr-xr-x 1 root root       9644 Mar  4  2014 canberra-gtk-play
+-rwxr-xr-x 1 root root       9576 Apr 11  2014 cancel
+-rwxr-xr-x 1 root root     166844 Apr  4  2014 deja-dup
+-rwxr-xr-x 1 root root      30692 Apr  4  2014 deja-dup-preferences
+-rwxr-xr-x 1 root root      39221 Mar 28  2014 enc2xs
+-rwxr-xr-x 1 root root      13724 Dec 15  2013 enchant
+-rwxr-xr-x 1 root root      13800 Apr 16  2014 fallocate
+-rwxr-xr-x 1 root root      13908 Jan 16  2014 fc-cache
+-rwxr-xr-x 1 root root      55236 Mar 27  2014 gconftool-2
+-rwxr-xr-x 1 root root      22012 Apr  5  2014 gcc-nm-4.8
+lrwxrwxrwx 1 root root          8 Feb  7  2013 gemtopbm -> gemtopnm
+-rwxr-xr-x 1 root root      26280 Mar 24  2014 hostid
+-rwxr-xr-x 1 root root      54800 Apr 14  2014 hostnamectl
+lrwxrwxrwx 1 root root         23 Aug  7  2014 hp-align -> ../share/hplip/align.py
+lrwxrwxrwx 1 root root         23 Aug  7  2014 hp-check -> ../share/hplip/check.py
+lrwxrwxrwx 1 root root          7 Apr  5  2014 i686-linux-gnu-g++-4.8 -> g++-4.8
+lrwxrwxrwx 1 root root          7 Aug  7  2014 i686-linux-gnu-gcc -> gcc-4.8
+lrwxrwxrwx 1 root root          7 Aug  7  2014 i686-linux-gnu-gcc-4.8 -> gcc-4.8
+lrwxrwxrwx 1 root root         22 Apr 23 19:15 jcmd -> /etc/alternatives/jcmd
+lrwxrwxrwx 1 root root         26 Apr 23 19:15 jconsole -> /etc/alternatives/jconsole
+lrwxrwxrwx 1 root root         26 Apr 23 19:15 jcontrol -> /etc/alternatives/jcontrol
+lrwxrwxrwx 1 root root         24 Aug  7  2014 locate -> /etc/alternatives/locate
+-rwxr-xr-x 1 root root       9708 Dec  4  2012 lockfile-check
+-rwxr-xr-x 1 root root       9708 Dec  4  2012 lockfile-create
+lrwxrwxrwx 1 root root          6 Aug  7  2014 mclasserase -> mtools
+-rwxr-xr-x 1 root root        847 Oct 10  2013 mcomp
+-rwxr-xr-x 1 root root       9796 Apr 16  2014 mcookie
+lrwxrwxrwx 1 root root          6 Aug  7  2014 mcopy -> mtools
+-rwxr-xr-x 1 root root      30620 Apr  7  2014 mc-tool

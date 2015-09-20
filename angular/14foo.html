@@ -1,0 +1,28 @@
+<html ng-app="nameApp">
+	<head>
+		<title>14foo</title>
+		<meta charset="utf-8">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js"></script>
+		<script>
+			var nameApp=angular.module("nameApp" , []);
+			nameApp.controller("NameCtrl" , function($scope){
+				$scope.firstname="Jon";
+				
+				$scope.$watch("lastname" , function(newVal , oldVal ){
+					console.log("New Value is: "+newVal);
+				});
+				
+				setTimeout(function(){
+					$scope.lastname="Snow";
+					$scope.$apply();
+				} , 5000);
+			});
+		</script>
+	</head>
+	
+	<body ng-controller="NameCtrl">
+		First Name: <input type="text" ng-model="firstname" /><br><br>
+		Last Name: <input type="text" ng-model="lastname" /><br><br>		
+		Hello {{firstname}} {{lastname}}
+	</body>
+</html>

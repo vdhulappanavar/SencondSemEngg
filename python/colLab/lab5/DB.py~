@@ -1,0 +1,3 @@
+para=input("Eneter a paragraph:")
+d={}
+for word in para

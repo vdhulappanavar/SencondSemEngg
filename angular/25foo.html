@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>25foo.html</title>
+		<meta charset="utf-8">
+		
+	</head>
+	<body>
+		<input type="text" id="input1"/>
+		<script>
+			var input1=document.getElementById("input1");
+			input1.addEventListener("keyup" , function(){
+				console.log(input1.value);
+				//console.log(parseInt(input1.value));
+				console.log(input1.value[input1.value.length-1]);
+				if(input1.value=='')
+					console.log("enter");
+					//input1.value="";
+			});
+			//input1.value="";
+		</script>
+	</body>
+</html>
